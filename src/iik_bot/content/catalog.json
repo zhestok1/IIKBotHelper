@@ -1,0 +1,2271 @@
+{
+  "schema_version": 1,
+  "document_title": "Структура бота помощника абитуриентам ИИК",
+  "document_review_date": "2026-10-17",
+  "sections": [
+    "admission",
+    "dorm",
+    "documents",
+    "military",
+    "study",
+    "scholarships",
+    "campus",
+    "clubs"
+  ],
+  "student_order": [
+    "dorm",
+    "documents",
+    "study",
+    "military",
+    "scholarships",
+    "campus",
+    "clubs",
+    "admission"
+  ],
+  "sources": {
+    "iik": {
+      "label": "Страница ИИК",
+      "url": "https://ssau.ru/info/struct/op/faculties/iime"
+    },
+    "programs": {
+      "label": "Программы обучения",
+      "url": "https://ssau.ru/education/program"
+    },
+    "settlement": {
+      "label": "Порядок заселения",
+      "url": "https://ssau.ru/info/struct/otd/soccult/studgor/info"
+    },
+    "dorms": {
+      "label": "Тарифы и приказы",
+      "url": "https://ssau.ru/info/struct/otd/soccult/studgor"
+    },
+    "health": {
+      "label": "Здравпункты университета",
+      "url": "https://ssau.ru/info/struct/otd/common/uvur/csuzs/inf"
+    },
+    "medical_memo": {
+      "label": "Медицинская памятка",
+      "url": "https://ssau.ru/pagefiles/pamatka_pervokursniky.pdf"
+    },
+    "archive": {
+      "label": "Архивные справки",
+      "url": "https://ssau.ru/info/struct/otd/common/arkhiv/spravky"
+    },
+    "vuc": {
+      "label": "Сайт ВУЦ",
+      "url": "https://mil.ssau.ru"
+    },
+    "selection": {
+      "label": "Предварительный отбор",
+      "url": "https://mil.ssau.ru/matriculant/proftest"
+    },
+    "commission": {
+      "label": "Документы комиссии",
+      "url": "https://mil.ssau.ru/node/289"
+    },
+    "criminal_record": {
+      "label": "Справка о судимости — Госуслуги",
+      "url": "https://www.gosuslugi.ru/600103/1/form"
+    },
+    "military": {
+      "label": "Военно-учётный стол",
+      "url": "https://ssau.ru/info/struct/otd/common/mobiliz_upr/vstol"
+    },
+    "schedule": {
+      "label": "Расписание",
+      "url": "https://ssau.ru/rasp"
+    },
+    "account": {
+      "label": "Личный кабинет",
+      "url": "https://lk.ssau.ru/"
+    },
+    "wifi": {
+      "label": "Инструкция Wi-Fi",
+      "url": "https://ssau.ru/it/support/wifi/"
+    },
+    "support": {
+      "label": "Техническая поддержка",
+      "url": "https://ssau.ru/it/support"
+    },
+    "mail": {
+      "label": "Университетская почта",
+      "url": "https://mail.ssau.ru/"
+    },
+    "library": {
+      "label": "Библиотека",
+      "url": "https://ssau.ru/lib/"
+    },
+    "software": {
+      "label": "Программное обеспечение",
+      "url": "https://ssau.ru/software"
+    },
+    "plans": {
+      "label": "Учебные планы",
+      "url": "https://ssau.ru/sveden/education"
+    },
+    "iot": {
+      "label": "Индивидуальные траектории",
+      "url": "https://ssau.ru/student/eit"
+    },
+    "digital": {
+      "label": "Цифровые кафедры",
+      "url": "https://ssau.ru/student/cifr_kafedry/"
+    },
+    "regulations": {
+      "label": "Нормативные документы",
+      "url": "https://ssau.ru/sveden/document"
+    },
+    "budget": {
+      "label": "Перевод на бюджет",
+      "url": "https://ssau.ru/student/perevod/"
+    },
+    "grants": {
+      "label": "Стипендии и документы",
+      "url": "https://ssau.ru/education/student_grants"
+    },
+    "campus": {
+      "label": "Кампус университета",
+      "url": "https://ssau.ru/info/studcity"
+    },
+    "tour": {
+      "label": "3D-тур",
+      "url": "https://3d.ssau.ru"
+    },
+    "guide": {
+      "label": "Памятка первокурсника",
+      "url": "https://guide.ssau.ru/"
+    },
+    "uvr": {
+      "label": "Управление внеучебной работы",
+      "url": "https://vk.com/uvr_university"
+    },
+    "science": {
+      "label": "Студенческая наука",
+      "url": "https://vk.ru/nirs_ssau"
+    },
+    "career": {
+      "label": "Центр карьеры",
+      "url": "https://vk.ru/career_ssau"
+    },
+    "vuc_faq": {
+      "label": "Ответы ВУЦ на вопросы",
+      "url": "https://mil.ssau.ru/faq"
+    },
+    "south_map": {
+      "label": "Карта: Московское шоссе, 34",
+      "url": "https://yandex.ru/maps/?text=%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%B0%2C%20%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B5%20%D1%88%D0%BE%D1%81%D1%81%D0%B5%2C%2034"
+    },
+    "north_map": {
+      "label": "Карта: Академика Павлова, 1",
+      "url": "https://yandex.ru/maps/?text=%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%B0%2C%20%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D0%BA%D0%B0%20%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%B0%2C%201"
+    }
+  },
+  "contacts": {
+    "admissions": {
+      "title": "Приёмная комиссия",
+      "details": "8 (800) 550-34-35; 8 (846) 267-48-67\npriem@ssau.ru"
+    },
+    "dorm_admin": {
+      "title": "Управление общежитий",
+      "details": "Общежитие № 6, комн. 113\n8 (846) 334-43-13; 8 (846) 267-47-42\nuso@ssau.ru\nОформление: пн–чт 08:00–16:45, пт 08:00–15:30. Приём в выходные уточняйте заранее."
+    },
+    "dorm6": {
+      "title": "Общежитие № 6",
+      "details": "Московское шоссе, 32А\n8 (846) 267-47-47"
+    },
+    "dorm7": {
+      "title": "Общежитие № 7",
+      "details": "Московское шоссе, 34Б\n8 (846) 267-47-48"
+    },
+    "student_office": {
+      "title": "Студенческий отдел кадров",
+      "details": "Южная площадка: учебный корпус 3А, каб. 211; 8 (846) 267-43-69.\nСеверная площадка: учебный корпус 22, кабинет студенческого отдела кадров; 8 (846) 334-54-24."
+    },
+    "health": {
+      "title": "Здравпункты",
+      "details": "Южный кампус: ул. Лукачева, 46, общежитие № 3, отдельный вход с торца; 8 (846) 267-47-35.\nСеверный кампус: ул. Академика Платонова, 49, общежитие № 11.\nГрафик допуска к заселению уточняйте перед посещением."
+    },
+    "chancellery": {
+      "title": "Канцелярия",
+      "details": "Учебный корпус 3А, каб. 316\n8 (846) 335-18-51; 8 (846) 267-43-70\nssau@ssau.ru"
+    },
+    "military": {
+      "title": "Военно-учётный стол",
+      "details": "Московское шоссе, 34, административный корпус, каб. 401а\n8 (846) 267-43-57"
+    },
+    "support": {
+      "title": "Техническая поддержка",
+      "details": "8 (846) 267-49-99\nhelp@ssau.ru"
+    },
+    "dispatcher": {
+      "title": "Диспетчерские",
+      "details": "Московское шоссе: каб. 309 административного корпуса; 8 (846) 267-44-17, 8 (846) 267-44-71.\nСеверная площадка: учебный корпус 22, каб. 208; 8 (846) 334-54-21."
+    },
+    "grants": {
+      "title": "Центр стипендиальных и грантовых программ",
+      "details": "Учебный корпус 5, каб. 235\n8 (846) 267-43-28\nsoc_stip@ssau.ru"
+    },
+    "social": {
+      "title": "Социальная защита — северная площадка",
+      "details": "Учебный корпус 22, каб. 206\n8 (846) 337-99-12"
+    },
+    "psych": {
+      "title": "Социально-психологический центр",
+      "details": "Учебный корпус 16, ауд. 303\n8 (846) 267-48-60\nspc@ssau.ru"
+    },
+    "uvr": {
+      "title": "Управление внеучебной работы",
+      "details": "Учебный корпус 3, каб. 317\n8 (846) 267-48-68"
+    },
+    "science": {
+      "title": "Совет по НИРС",
+      "details": "Учебный корпус 3А, каб. 210\n8 (846) 267-43-14"
+    },
+    "career": {
+      "title": "Центр карьеры",
+      "details": "Учебный корпус 3А, каб. 408\n8 (846) 267-43-97; 8 (846) 267-47-94\ncareer@ssau.ru; work@ssau.ru\nПо практикам: practice@ssau.ru"
+    }
+  },
+  "cards": {
+    "admission": {
+      "title": "Поступление в ИИК",
+      "text": "Выберите тему. По условиям конкретной приёмной кампании поможет приёмная комиссия.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "Об институте",
+          "target": "about"
+        },
+        {
+          "label": "Программы",
+          "target": "programs"
+        },
+        {
+          "label": "Условия и сроки приёма",
+          "target": "admission_rules"
+        },
+        {
+          "label": "Приёмная комиссия",
+          "target": "admissions_contact"
+        }
+      ],
+      "contact_ids": [],
+      "source_ids": [],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "about": {
+      "title": "Об институте",
+      "text": "Институт информатики и кибернетики — подразделение Самарского университета. О направлениях подготовки, подразделениях и жизни института читайте на официальной странице.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "admissions"
+      ],
+      "source_ids": [
+        "iik"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "programs": {
+      "title": "Программы обучения",
+      "text": "Откройте официальный каталог, выберите ИИК, уровень образования и интересующую программу. Требуемые ЕГЭ, минимальные баллы, количество мест и стоимость зависят от программы и года приёма.",
+      "steps": [
+        "Найдите программу в каталоге университета.",
+        "Проверьте вступительные испытания, бюджетные и платные места.",
+        "Уточните условия выбранного года у приёмной комиссии."
+      ],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "admissions"
+      ],
+      "source_ids": [
+        "programs",
+        "iik"
+      ],
+      "keywords": [
+        "направления ЕГЭ баллы стоимость бюджет"
+      ],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "admission_rules": {
+      "title": "Условия и сроки приёма",
+      "text": "Сроки, документы и способы подачи зависят от года, уровня образования и формы поступления. Назовите приёмной комиссии программу и год приёма, чтобы получить действующий порядок.",
+      "steps": [
+        "Выберите программу и год поступления.",
+        "Проверьте документы и способ подачи заявления.",
+        "Уточните дедлайны, вступительные испытания и порядок зачисления."
+      ],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "admissions"
+      ],
+      "source_ids": [
+        "iik",
+        "programs"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "admissions_contact": {
+      "title": "Приёмная комиссия",
+      "text": "Обратитесь по вопросам поступления, документов, мест, стоимости и сроков.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "admissions"
+      ],
+      "source_ids": [
+        "iik"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "dorm": {
+      "title": "Общежитие",
+      "text": "Начните с приказа о предоставлении места и своего общежития.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "Кому дают место",
+          "target": "dorm_eligibility"
+        },
+        {
+          "label": "Документы",
+          "target": "dorm_docs"
+        },
+        {
+          "label": "Как заселиться",
+          "target": "settle"
+        },
+        {
+          "label": "Стоимость",
+          "target": "dorm_price"
+        },
+        {
+          "label": "Если задерживаюсь",
+          "target": "dorm_late"
+        },
+        {
+          "label": "Контакты общежитий",
+          "target": "dorm_contacts"
+        }
+      ],
+      "contact_ids": [],
+      "source_ids": [],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "dorm_eligibility": {
+      "title": "Кому дают место",
+      "text": "Приоритет имеют иногородние и иностранные студенты очной формы бакалавриата и специалитета, проживающие далее 50 км от Самары. Приоритет сам по себе не гарантирует место. Заселяться нужно в общежитие из приказа.",
+      "steps": [
+        "Уточните порядок подачи заявления в Управлении общежитий.",
+        "Проверьте приказ о предоставлении места, номер общежития и дату заселения."
+      ],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "dorm_admin"
+      ],
+      "source_ids": [
+        "settlement"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "dorm_docs": {
+      "title": "Документы для общежития",
+      "text": "Выберите список для граждан РФ или иностранных граждан. Медицинский допуск выдаёт здравпункт университета.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "Гражданам РФ",
+          "target": "dorm_docs_ru"
+        },
+        {
+          "label": "Иностранным гражданам",
+          "target": "dorm_docs_foreign"
+        },
+        {
+          "label": "Медицинский допуск",
+          "target": "health_clearance"
+        }
+      ],
+      "contact_ids": [],
+      "source_ids": [
+        "settlement"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "dorm_docs_ru": {
+      "title": "Заселение: документы гражданам РФ",
+      "text": "Подготовьте документы и уточните действующий перечень перед поездкой.",
+      "steps": [],
+      "documents": [
+        "Паспорт и одна копия страниц с фото и регистрацией на одном листе.",
+        "Медицинская справка здравпункта университета.",
+        "Для юношей — приписное свидетельство или военный билет.",
+        "Три фотографии 3 × 4 см."
+      ],
+      "children": [
+        {
+          "label": "Как получить медицинский допуск",
+          "target": "health_clearance"
+        }
+      ],
+      "contact_ids": [
+        "dorm_admin"
+      ],
+      "source_ids": [
+        "settlement"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "dorm_docs_foreign": {
+      "title": "Заселение иностранных граждан",
+      "text": "Требования к документам отличаются от списка для граждан РФ. Откройте отдельный перечень для иностранцев на официальной странице заселения и до поездки уточните документы и дату приезда.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "dorm_admin"
+      ],
+      "source_ids": [
+        "settlement"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "settle": {
+      "title": "Как заселиться",
+      "text": "Заселяйтесь в общежитие, указанное в приказе. Сниматься с регистрации по прежнему месту жительства для заселения не требуется.",
+      "steps": [
+        "Проверьте приказ, своё общежитие и дату заселения.",
+        "Получите медицинский допуск в здравпункте и предъявите документы заведующему.",
+        "Возьмите реквизиты, оплатите проживание и покажите квитанцию.",
+        "Подпишите правила проживания, инструктаж и договор найма; получите бельё и ключи."
+      ],
+      "documents": [],
+      "children": [
+        {
+          "label": "Документы",
+          "target": "dorm_docs"
+        },
+        {
+          "label": "Медицинский допуск",
+          "target": "health_clearance"
+        },
+        {
+          "label": "Стоимость",
+          "target": "dorm_price"
+        }
+      ],
+      "contact_ids": [
+        "dorm_admin"
+      ],
+      "source_ids": [
+        "settlement"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "dorm_price": {
+      "title": "Стоимость общежитий № 6 и № 7",
+      "text": "Тарифы из предоставленных материалов, действующие с 1 марта 2026 года:\n• Обычная комната — 1 010 ₽ в месяц; 6 060 ₽ за шесть месяцев.\n• Комната с дополнительными услугами — 3 250 ₽ в месяц, оплата за месяц.\n\nПеред оплатой проверьте действующий приказ, доступность комнаты и реквизиты. В комнате предусмотрены кровать, стул, стол, шкаф и матрас; при заселении выдают постельное бельё.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "dorm_admin"
+      ],
+      "source_ids": [
+        "dorms"
+      ],
+      "keywords": [
+        "тариф оплата проживание"
+      ],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "dorm_late": {
+      "title": "Если задерживаетесь с заселением",
+      "text": "Заранее сообщите администрации причину и ожидаемую дату приезда. По опубликованному порядку, если не заселиться в установленный срок в течение пяти рабочих дней и не сообщить причину, предоставленное место можно потерять.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "dorm_admin",
+        "dorm6",
+        "dorm7"
+      ],
+      "source_ids": [
+        "settlement"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "dorm_contacts": {
+      "title": "Контакты общежитий",
+      "text": "Уточните дату приезда и часы приёма перед посещением.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "dorm6",
+        "dorm7",
+        "dorm_admin"
+      ],
+      "source_ids": [
+        "dorms"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "documents": {
+      "title": "Справки и документы",
+      "text": "Для чего нужна справка? Выберите назначение или нужный документ.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "С места учёбы",
+          "target": "study_certificate"
+        },
+        {
+          "label": "Для военкомата / отсрочки",
+          "target": "deferment"
+        },
+        {
+          "label": "Для общежития",
+          "target": "health_clearance"
+        },
+        {
+          "label": "Для ВУЦ",
+          "target": "vuc_documents"
+        },
+        {
+          "label": "Для социальной стипендии",
+          "target": "social"
+        },
+        {
+          "label": "Студенческий и зачётка",
+          "target": "student_id"
+        },
+        {
+          "label": "Медицинские документы",
+          "target": "medical_docs"
+        },
+        {
+          "label": "Заверение и архив",
+          "target": "extra_documents"
+        }
+      ],
+      "contact_ids": [],
+      "source_ids": [],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "study_certificate": {
+      "title": "Справка с места учёбы",
+      "text": "Выдаёт студенческий отдел кадров. Сообщите, для какой организации нужна справка; уточните способ заказа, срок и получение. Предоставьте справку в организацию, которая её запросила.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "student_office"
+      ],
+      "source_ids": [
+        "guide"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "health_clearance": {
+      "title": "Медицинский допуск к заселению",
+      "text": "Допуск выдаёт здравпункт университета. Подготовьте оригиналы и копии медицинских документов. Перед посещением уточните действующие формы и сроки; медицинская памятка может содержать более ранние требования.",
+      "steps": [
+        "Уточните время приёма и актуальный медицинский пакет.",
+        "Предъявите документы в здравпункте.",
+        "Передайте допуск заведующему общежитием."
+      ],
+      "documents": [
+        "Справка 086/у.",
+        "Сертификат о прививках.",
+        "Результат флюорографии (на странице заселения указан срок действия один год).",
+        "Справка о санитарно-эпидемиологической обстановке по месту жительства.",
+        "СНИЛС и полис ОМС."
+      ],
+      "children": [
+        {
+          "label": "Где получить медицинские документы",
+          "target": "medical_docs"
+        }
+      ],
+      "contact_ids": [
+        "health"
+      ],
+      "source_ids": [
+        "settlement",
+        "health",
+        "medical_memo"
+      ],
+      "keywords": [
+        "медсправка допуск общежитие"
+      ],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "medical_docs": {
+      "title": "Где получить медицинские документы",
+      "text": "Выберите документ. Сроки и пригодность имеющихся справок уточняйте у здравпункта перед обследованиями.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "Справка 086/у",
+          "target": "form086"
+        },
+        {
+          "label": "Сведения о прививках",
+          "target": "vaccinations"
+        },
+        {
+          "label": "Флюорография",
+          "target": "fluorography"
+        },
+        {
+          "label": "Справка об эпидобстановке",
+          "target": "epidemic"
+        }
+      ],
+      "contact_ids": [
+        "health"
+      ],
+      "source_ids": [
+        "health",
+        "medical_memo"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "form086": {
+      "title": "Медицинская справка 086/у",
+      "text": "По памятке университета справку получают в поликлинике по месту прикрепления полиса ОМС. Уточните действующие требования к форме. Подготовьте оригинал и копию для здравпункта.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "health"
+      ],
+      "source_ids": [
+        "medical_memo",
+        "health"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "vaccinations": {
+      "title": "Сведения о прививках",
+      "text": "Подготовьте сертификат о прививках. Если его нет, обратитесь в медицинскую организацию, где хранятся ваши сведения. Оригинал и копию предоставьте в здравпункт.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "health"
+      ],
+      "source_ids": [
+        "medical_memo",
+        "health"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "fluorography": {
+      "title": "Результат флюорографии",
+      "text": "Получите результат в медорганизации, где проводилось обследование. Перед повторным обследованием уточните пригодность имеющегося результата. На странице заселения указан срок действия один год.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "health"
+      ],
+      "source_ids": [
+        "settlement",
+        "health"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "epidemic": {
+      "title": "Справка об эпидобстановке",
+      "text": "Оформляется по месту жительства. Точную организацию и срок действия предварительно уточните у здравпункта; затем предоставьте справку для допуска к заселению.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "health"
+      ],
+      "source_ids": [
+        "settlement",
+        "health"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "student_id": {
+      "title": "Студенческий билет и зачётная книжка",
+      "text": "По вопросам выдачи обращайтесь в студенческий отдел кадров. При утрате уточните порядок восстановления, заявление и необходимые документы.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "student_office"
+      ],
+      "source_ids": [
+        "guide"
+      ],
+      "keywords": [
+        "потерял восстановить зачетка"
+      ],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "extra_documents": {
+      "title": "Заверение и архив",
+      "text": "Выберите услугу. Для обычной справки с места учёбы нужен студенческий отдел кадров.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "Заверение и регистрация",
+          "target": "chancellery"
+        },
+        {
+          "label": "Архивная справка о периоде обучения",
+          "target": "archive"
+        }
+      ],
+      "contact_ids": [],
+      "source_ids": [],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "chancellery": {
+      "title": "Заверение и регистрация документов",
+      "text": "Уточните порядок заверения и регистрации нужного документа в канцелярии.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "chancellery"
+      ],
+      "source_ids": [
+        "regulations"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "archive": {
+      "title": "Архивная справка",
+      "text": "Справки о периоде обучения оформляют по порядку, опубликованному архивом. Проверьте способ подачи запроса, сведения для поиска и получение готового документа.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "chancellery"
+      ],
+      "source_ids": [
+        "archive"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "military": {
+      "title": "ВУЦ и воинский учёт",
+      "text": "Выберите самостоятельную ветку: обучение в ВУЦ или воинский учёт и справка для отсрочки.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "Хочу учиться в ВУЦ",
+          "target": "vuc_entry"
+        },
+        {
+          "label": "Воинский учёт",
+          "target": "military_registry"
+        },
+        {
+          "label": "Справка для отсрочки",
+          "target": "deferment"
+        }
+      ],
+      "contact_ids": [],
+      "source_ids": [],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "vuc_entry": {
+      "title": "Хочу учиться в ВУЦ",
+      "text": "Требования зависят от программы, направления и курса. На сайте указаны категории годности А или Б и категории профпригодности I–III; проверьте требования выбранной программы в текущем объявлении.",
+      "steps": [
+        "Проверьте доступность программы для своего направления и курса.",
+        "Откройте объявление об отборе текущего года и подайте заявление по его инструкции.",
+        "Получите направление и пройдите ВВК и психологический профотбор в военкомате.",
+        "Подготовьте документы и пройдите конкурс, включая физподготовку.",
+        "После рекомендации комиссии оформите договор и допуск к обучению."
+      ],
+      "documents": [],
+      "children": [
+        {
+          "label": "Документы и отбор",
+          "target": "vuc_documents"
+        },
+        {
+          "label": "Медкомиссия",
+          "target": "vuc_medical"
+        }
+      ],
+      "contact_ids": [],
+      "source_ids": [
+        "vuc",
+        "selection",
+        "vuc_faq"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "vuc_documents": {
+      "title": "Документы для комиссии ВУЦ",
+      "text": "Сверьте перечень с объявлением текущего набора. Необходимость листа кандидата, подписи дирекции и зачётки уточняйте по текущей инструкции.",
+      "steps": [],
+      "documents": [
+        "Паспорт и приписное свидетельство. Если приписного нет — уточните порядок в военкомате и ВУЦ.",
+        "Карта медицинского освидетельствования с заключением ВВК — после обследований в военкомате.",
+        "Карта профессионального психологического отбора — по результатам профотбора в военкомате.",
+        "Подтверждения преимущественного права и копии — если есть такое основание.",
+        "Справка об отсутствии или наличии судимости — услуга МВД на Госуслугах; допустимый формат уточните у комиссии."
+      ],
+      "children": [
+        {
+          "label": "Медкомиссия",
+          "target": "vuc_medical"
+        }
+      ],
+      "contact_ids": [],
+      "source_ids": [
+        "commission",
+        "criminal_record",
+        "selection"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "vuc_medical": {
+      "title": "Медкомиссия для ВУЦ",
+      "text": "Получите направление и пройдите обследования по действующей инструкции ВУЦ и военкомата. Необходимые исследования, анализы и отметки диспансеров определяются этой инструкцией. Адрес прохождения подтверждается по направлению — единого адреса для всех кандидатов нет.",
+      "steps": [
+        "Получите направление на предварительный отбор.",
+        "Уточните место прохождения и перечень исследований.",
+        "Пройдите ВВК и психологический профотбор.",
+        "Проверьте комплект карт и заключений для комиссии."
+      ],
+      "documents": [],
+      "children": [],
+      "contact_ids": [],
+      "source_ids": [
+        "selection",
+        "vuc_faq",
+        "commission"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "military_registry": {
+      "title": "Воинский учёт",
+      "text": "Для первокурсников, на которых распространяется воинский учёт, университет указывает личную явку с 1 по 25 сентября. При отсутствии воинского документа явку не откладывайте. Если срок пропущен, свяжитесь со столом для дальнейших действий.",
+      "steps": [],
+      "documents": [
+        "Оригинал паспорта.",
+        "Оригинал приписного свидетельства или военного билета, если имеется."
+      ],
+      "children": [
+        {
+          "label": "Справка для отсрочки",
+          "target": "deferment"
+        }
+      ],
+      "contact_ids": [
+        "military"
+      ],
+      "source_ids": [
+        "military"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "deferment": {
+      "title": "Справка для отсрочки",
+      "text": "Справку (приложение 4 или 5) оформляет военно-учётный стол после предоставления воинских документов. Готовый электронный файл направляют на почту или в личный кабинет. Решение об отсрочке принимает военкомат при наличии оснований.",
+      "steps": [
+        "Предоставьте документы в военно-учётный стол.",
+        "Уточните готовность и способ получения справки.",
+        "Предоставьте справку в свой военкомат. По опубликованной инструкции это делают ежегодно в сентябре–октябре."
+      ],
+      "documents": [],
+      "children": [
+        {
+          "label": "Воинский учёт",
+          "target": "military_registry"
+        }
+      ],
+      "contact_ids": [
+        "military"
+      ],
+      "source_ids": [
+        "military"
+      ],
+      "keywords": [
+        "отсрочка военкомат приложение 4 5"
+      ],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "study": {
+      "title": "Учёба и сервисы",
+      "text": "Выберите учебную задачу или сервис.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "Расписание",
+          "target": "schedule"
+        },
+        {
+          "label": "Личный кабинет",
+          "target": "account"
+        },
+        {
+          "label": "Wi-Fi, почта и ПО",
+          "target": "it_services"
+        },
+        {
+          "label": "Библиотека",
+          "target": "library"
+        },
+        {
+          "label": "Учебный план",
+          "target": "plans"
+        },
+        {
+          "label": "ИОТ и цифровые кафедры",
+          "target": "trajectories"
+        },
+        {
+          "label": "Академический отпуск",
+          "target": "academic_leave"
+        },
+        {
+          "label": "Перевод",
+          "target": "transfer"
+        }
+      ],
+      "contact_ids": [],
+      "source_ids": [],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "schedule": {
+      "title": "Расписание",
+      "text": "Откройте расписание, найдите свою группу, неделю и аудиторию. При вопросах о занятиях обращайтесь в диспетчерскую своей площадки.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "Как найти корпус",
+          "target": "buildings"
+        }
+      ],
+      "contact_ids": [
+        "dispatcher"
+      ],
+      "source_ids": [
+        "schedule"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "account": {
+      "title": "Личный кабинет",
+      "text": "Вход — lk.ssau.ru. При проблемах с доступом обратитесь в техническую поддержку. Пароль и коды подтверждения в чат боту не отправляйте.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "support"
+      ],
+      "source_ids": [
+        "account",
+        "support"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "it_services": {
+      "title": "Wi-Fi, почта и программное обеспечение",
+      "text": "Выберите сервис. При проблемах с доступом поможет техническая поддержка.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "Подключить Wi-Fi",
+          "target": "wifi"
+        },
+        {
+          "label": "Открыть почту",
+          "target": "mail"
+        },
+        {
+          "label": "Получить ПО",
+          "target": "software"
+        }
+      ],
+      "contact_ids": [
+        "support"
+      ],
+      "source_ids": [
+        "support"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "wifi": {
+      "title": "Wi-Fi университета",
+      "text": "Откройте официальную инструкцию подключения и выполните шаги для своего устройства. Если подключиться не получается, сообщите поддержке корпус, устройство и текст ошибки без паролей.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "support"
+      ],
+      "source_ids": [
+        "wifi",
+        "support"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "mail": {
+      "title": "Университетская почта",
+      "text": "Веб-интерфейс почты — mail.ssau.ru. Вопросы входа и доступа направляйте в техническую поддержку.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "support"
+      ],
+      "source_ids": [
+        "mail",
+        "support"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "software": {
+      "title": "Программное обеспечение",
+      "text": "Доступное университетское ПО и условия получения указаны в официальном разделе. Проверьте требования и лицензионные условия перед установкой.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "support"
+      ],
+      "source_ids": [
+        "software",
+        "support"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "library": {
+      "title": "Библиотека",
+      "text": "Откройте библиотеку университета, чтобы найти учебники и доступные электронные ресурсы. Порядок записи и доступа уточняйте на её странице.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [],
+      "source_ids": [
+        "library"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "plans": {
+      "title": "Учебный план",
+      "text": "В разделе «Образование» найдите свою образовательную программу и год набора. Проверьте форму обучения и редакцию учебного плана.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [],
+      "source_ids": [
+        "plans",
+        "programs"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "trajectories": {
+      "title": "ИОТ и цифровые кафедры",
+      "text": "Индивидуальные образовательные траектории и цифровые кафедры представлены в отдельных разделах университета. Доступность, сроки выбора и условия участия проверяйте в текущем объявлении.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [],
+      "source_ids": [
+        "iot",
+        "digital"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "academic_leave": {
+      "title": "Академический отпуск",
+      "text": "Уточните основание, документы и порядок заявления в дирекции своей программы; действующее положение доступно в нормативных документах. Если есть отсрочка, до оформления получите консультацию военно-учётного стола.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "Студенческий отдел кадров",
+          "target": "student_office"
+        },
+        {
+          "label": "Воинский учёт и отсрочка",
+          "target": "military_registry"
+        }
+      ],
+      "contact_ids": [],
+      "source_ids": [
+        "regulations",
+        "iik"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "transfer": {
+      "title": "Перевод",
+      "text": "Порядок перевода зависит от программы, формы обучения и наличия мест. Начните с консультации в дирекции ИИК и действующего положения. Если вопрос затрагивает отсрочку, свяжитесь с военно-учётным столом.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "С платного обучения на бюджет",
+          "target": "budget_transfer"
+        },
+        {
+          "label": "Студенческий отдел кадров",
+          "target": "student_office"
+        },
+        {
+          "label": "Воинский учёт и отсрочка",
+          "target": "military_registry"
+        }
+      ],
+      "contact_ids": [],
+      "source_ids": [
+        "regulations",
+        "iik"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "budget_transfer": {
+      "title": "Перевод на бюджет",
+      "text": "На специальной странице университета проверьте действующие условия, вакантные места, сроки подачи и комплект документов. Заявление подавайте по опубликованной инструкции.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [],
+      "source_ids": [
+        "budget",
+        "regulations",
+        "iik"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "student_office": {
+      "title": "Студенческий отдел кадров",
+      "text": "Здесь уточняют получение справки с места учёбы, студенческого билета и зачётной книжки.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "Справка с места учёбы",
+          "target": "study_certificate"
+        },
+        {
+          "label": "Студенческий и зачётка",
+          "target": "student_id"
+        }
+      ],
+      "contact_ids": [
+        "student_office"
+      ],
+      "source_ids": [
+        "guide"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "scholarships": {
+      "title": "Стипендии и выплаты",
+      "text": "Выберите вид стипендии или вопрос по выплатам.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "Академическая",
+          "target": "academic_scholarship"
+        },
+        {
+          "label": "Повышенная (ПГАС)",
+          "target": "enhanced"
+        },
+        {
+          "label": "Социальная",
+          "target": "social"
+        },
+        {
+          "label": "Вопросы по выплатам",
+          "target": "payment_contacts"
+        }
+      ],
+      "contact_ids": [],
+      "source_ids": [],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "academic_scholarship": {
+      "title": "Академическая стипендия",
+      "text": "Условия зависят от формы и основы обучения, а после первой аттестации — от её результатов.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "Кому положена",
+          "target": "academic_eligibility"
+        },
+        {
+          "label": "Что будет после сессии",
+          "target": "after_session"
+        },
+        {
+          "label": "Срок выплаты",
+          "target": "payday"
+        },
+        {
+          "label": "Размер",
+          "target": "stipend_amount"
+        }
+      ],
+      "contact_ids": [],
+      "source_ids": [
+        "grants"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "academic_eligibility": {
+      "title": "Кому положена академическая стипендия",
+      "text": "Первокурсникам очной формы на бюджете академическую стипендию назначают до окончания первой промежуточной аттестации. Индивидуальные вопросы назначения уточняйте в Центре стипендиальных и грантовых программ.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "grants"
+      ],
+      "source_ids": [
+        "grants"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "after_session": {
+      "title": "Стипендия после сессии",
+      "text": "После первой промежуточной аттестации нужны отсутствие академических задолженностей и оценок «удовлетворительно». Учитываются экзамены, дифференцированные зачёты, практика и курсовые работы.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "grants"
+      ],
+      "source_ids": [
+        "grants"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "payday": {
+      "title": "Срок выплаты стипендии",
+      "text": "Действующую дату перечисления и причину задержки уточните в Центре стипендиальных и грантовых программ. Подготовьте сведения о виде выплаты и расчётном периоде.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "grants"
+      ],
+      "source_ids": [
+        "grants"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "stipend_amount": {
+      "title": "Размер академической стипендии",
+      "text": "Размер определяется действующим приказом. Проверьте текущие суммы на странице стипендий или уточните их в Центре стипендиальных и грантовых программ.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "grants"
+      ],
+      "source_ids": [
+        "grants"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "enhanced": {
+      "title": "Повышенная академическая стипендия (ПГАС)",
+      "text": "ПГАС назначают по конкурсу за достижения в учёбе, науке, общественной, творческой или спортивной деятельности.",
+      "steps": [
+        "Найдите объявление действующего конкурса.",
+        "Проверьте критерии, сроки и требования к подтверждениям достижений.",
+        "Подайте заявку способом, указанным в текущем объявлении."
+      ],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "grants"
+      ],
+      "source_ids": [
+        "grants"
+      ],
+      "keywords": [
+        "пгас достижения конкурс"
+      ],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "social": {
+      "title": "Социальная стипендия",
+      "text": "Нужны заявление и документ, подтверждающий основание. Выберите, по какому вопросу нужна консультация: служба социальной защиты проверит право и назовёт точный перечень документов.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "Получаю государственную соцпомощь",
+          "target": "social_aid"
+        },
+        {
+          "label": "Сиротство / отсутствие попечения",
+          "target": "social_orphan"
+        },
+        {
+          "label": "Инвалидность",
+          "target": "social_disability"
+        },
+        {
+          "label": "Другое основание / не знаю",
+          "target": "social_other"
+        }
+      ],
+      "contact_ids": [
+        "grants",
+        "social"
+      ],
+      "source_ids": [
+        "grants"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "social_aid": {
+      "title": "Социальная стипендия: государственная помощь",
+      "text": "Сообщите отделу социальной защиты, какую государственную социальную помощь вы получаете. Уточните, какое подтверждение нужно, срок его действия и порядок заявления. Сам по себе низкий доход не заменяет проверку основания.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "grants",
+        "social"
+      ],
+      "source_ids": [
+        "grants"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "social_orphan": {
+      "title": "Социальная стипендия: сиротство",
+      "text": "Расскажите службе социальной защиты о своей категории. Уточните подходящие подтверждающие документы, порядок заявления и срок назначения.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "grants",
+        "social"
+      ],
+      "source_ids": [
+        "grants"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "social_disability": {
+      "title": "Социальная стипендия: инвалидность",
+      "text": "Уточните у социальной защиты, относится ли ваша категория к основаниям для назначения, какие подтверждения и заявление требуются. Медицинские документы в чат боту не отправляйте.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "grants",
+        "social"
+      ],
+      "source_ids": [
+        "grants"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "social_other": {
+      "title": "Социальная стипендия: уточнить основание",
+      "text": "Обратитесь в социальную защиту, опишите свою ситуацию и уточните наличие основания, документ для подтверждения и способ подачи заявления. Выбор темы в боте сам по себе не подтверждает право на выплату.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "grants",
+        "social"
+      ],
+      "source_ids": [
+        "grants"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "payment_contacts": {
+      "title": "Вопросы по выплатам",
+      "text": "Уточните вид стипендии, месяц и характер вопроса. По назначению и перечислению поможет Центр стипендиальных и грантовых программ; по подтверждению социального основания — социальная защита.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "grants",
+        "social"
+      ],
+      "source_ids": [
+        "grants"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "campus": {
+      "title": "Кампус и поддержка",
+      "text": "Найдите корпус, бытовые сервисы или службу поддержки.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "Корпуса и карта",
+          "target": "buildings"
+        },
+        {
+          "label": "Где поесть",
+          "target": "food"
+        },
+        {
+          "label": "Спорт",
+          "target": "sports"
+        },
+        {
+          "label": "Здравпункт",
+          "target": "health"
+        },
+        {
+          "label": "Психологическая помощь",
+          "target": "psychological"
+        },
+        {
+          "label": "Санаторий-профилакторий",
+          "target": "sanatorium"
+        }
+      ],
+      "contact_ids": [],
+      "source_ids": [
+        "guide",
+        "tour"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "buildings": {
+      "title": "Как найти корпус",
+      "text": "Сначала проверьте номер учебного корпуса в расписании — номер корпуса и номер общежития не одно и то же. Затем выберите площадку. Точное расположение корпуса найдите на странице кампуса или в 3D-туре.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "Южная площадка",
+          "target": "south"
+        },
+        {
+          "label": "Северная площадка",
+          "target": "north"
+        }
+      ],
+      "contact_ids": [
+        "dispatcher"
+      ],
+      "source_ids": [
+        "campus",
+        "tour"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "south": {
+      "title": "Южная площадка",
+      "text": "Основной адрес: Московское шоссе, 34; административный корпус 3А. Остановки: «Аэрокосмический университет» / «Самарский университет». Карта открывает поиск основного адреса площадки; расположение нужного учебного корпуса проверьте по схеме кампуса.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "dispatcher"
+      ],
+      "source_ids": [
+        "south_map",
+        "campus",
+        "tour"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "north": {
+      "title": "Северная площадка",
+      "text": "Основной адрес: ул. Академика Павлова, 1. Остановка: «Университет». Карта открывает поиск основного адреса площадки; расположение нужного учебного корпуса проверьте по схеме кампуса.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "dispatcher"
+      ],
+      "source_ids": [
+        "north_map",
+        "campus",
+        "tour"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "food": {
+      "title": "Где поесть",
+      "text": "Столовые:\n• Московское шоссе, 34, учебный корпус 3.\n• ул. Академика Павлова, 1А, учебный корпус 22.\n\nЧасы работы уточните на месте перед посещением.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [],
+      "source_ids": [
+        "campus",
+        "guide"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "sports": {
+      "title": "Спорт",
+      "text": "В университете есть занятия баскетболом, волейболом, плаванием и настольным теннисом. Выберите тему, а действующие расписание, запись и стоимость уточните в УВР.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "Секции",
+          "target": "sport_sections"
+        },
+        {
+          "label": "Бассейн",
+          "target": "pool"
+        },
+        {
+          "label": "Спортивные объекты",
+          "target": "sport_facilities"
+        }
+      ],
+      "contact_ids": [
+        "uvr"
+      ],
+      "source_ids": [
+        "uvr"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "sport_sections": {
+      "title": "Спортивные секции",
+      "text": "Уточните в УВР доступные секции, набор, требования и расписание. Можно начать с баскетбола, волейбола, плавания или настольного тенниса.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "uvr"
+      ],
+      "source_ids": [
+        "uvr"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "pool": {
+      "title": "Бассейн",
+      "text": "Перед посещением уточните запись, адрес, расписание, стоимость и необходимые документы в действующем объявлении или в Управлении внеучебной работы.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "uvr"
+      ],
+      "source_ids": [
+        "uvr"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "sport_facilities": {
+      "title": "Спортивные объекты",
+      "text": "Выберите вид спорта и уточните в УВР доступный объект, адрес, условия посещения и расписание.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "uvr"
+      ],
+      "source_ids": [
+        "uvr",
+        "campus"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "health": {
+      "title": "Здравпункт",
+      "text": "По вопросам медицинских документов, допуска к заселению и прикрепления к поликлинике обратитесь в здравпункт. Время приёма уточните заранее.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "Медицинский допуск к заселению",
+          "target": "health_clearance"
+        },
+        {
+          "label": "Медицинские документы",
+          "target": "medical_docs"
+        }
+      ],
+      "contact_ids": [
+        "health"
+      ],
+      "source_ids": [
+        "health"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "psychological": {
+      "title": "Психологическая помощь",
+      "text": "За поддержкой можно обратиться в Социально-психологический центр. Для записи уточните доступное время и формат консультации.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "Как записаться на консультацию",
+          "target": "psych_appointment"
+        }
+      ],
+      "contact_ids": [
+        "psych"
+      ],
+      "source_ids": [],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "psych_appointment": {
+      "title": "Запись к психологу",
+      "text": "Позвоните или напишите в Социально-психологический центр, попросите консультацию и согласуйте время, место и формат встречи. Подробности личной ситуации можно обсудить непосредственно со специалистом.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "psych"
+      ],
+      "source_ids": [],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "sanatorium": {
+      "title": "Санаторий-профилакторий",
+      "text": "Условия записи, документы и сроки заезда смотрите в действующем объявлении. Уточните, где опубликован текущий набор, в Управлении внеучебной работы.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "uvr"
+      ],
+      "source_ids": [
+        "uvr",
+        "health"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "clubs": {
+      "title": "Клубы и карьера",
+      "text": "Выберите интерес: сообщества, студенческая наука, практики или работа.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "IT и инженерия",
+          "target": "it_clubs"
+        },
+        {
+          "label": "Другие объединения",
+          "target": "other_clubs"
+        },
+        {
+          "label": "Студенческая наука",
+          "target": "science"
+        },
+        {
+          "label": "Практики, стажировки и работа",
+          "target": "career"
+        }
+      ],
+      "contact_ids": [],
+      "source_ids": [],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "it_clubs": {
+      "title": "IT и инженерия",
+      "text": "Выберите направление. Актуальный контакт и способ вступления в объединение уточните в УВР.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "ASIS — программирование",
+          "target": "asis"
+        },
+        {
+          "label": "RoboTIC — робототехника",
+          "target": "robotic"
+        },
+        {
+          "label": "Контур — электроника",
+          "target": "kontur"
+        }
+      ],
+      "contact_ids": [
+        "uvr"
+      ],
+      "source_ids": [
+        "uvr"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "asis": {
+      "title": "ASIS",
+      "text": "Программирование и компьютерные технологии. Чтобы присоединиться, запросите в УВР актуальное сообщество ASIS и информацию о ближайшем наборе или встрече.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "uvr"
+      ],
+      "source_ids": [
+        "uvr"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "robotic": {
+      "title": "RoboTIC",
+      "text": "Робототехника, занятия и соревнования. Запросите в УВР актуальное сообщество RoboTIC и уточните у организаторов формат занятий и вступление.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "uvr"
+      ],
+      "source_ids": [
+        "uvr"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "kontur": {
+      "title": "Контур",
+      "text": "Электроника. Для вступления запросите в УВР актуальное сообщество «Контур», затем уточните у организаторов встречи и набор.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "uvr"
+      ],
+      "source_ids": [
+        "uvr"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "other_clubs": {
+      "title": "Другие объединения",
+      "text": "Выберите интерес. Управление внеучебной работы поможет найти актуальные сообщества, полный каталог и способ вступления.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "Медиа",
+          "target": "club_media"
+        },
+        {
+          "label": "Творчество",
+          "target": "club_creative"
+        },
+        {
+          "label": "Спорт и туризм",
+          "target": "club_tourism"
+        },
+        {
+          "label": "Волонтёрство",
+          "target": "club_volunteer"
+        },
+        {
+          "label": "Студотряды",
+          "target": "club_teams"
+        }
+      ],
+      "contact_ids": [
+        "uvr"
+      ],
+      "source_ids": [
+        "uvr"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "club_media": {
+      "title": "Медиа",
+      "text": "Интересуетесь студенческими медиа? Уточните в УВР действующие команды, задачи и условия присоединения.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "uvr"
+      ],
+      "source_ids": [
+        "uvr"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "club_creative": {
+      "title": "Творчество",
+      "text": "Уточните в УВР творческие объединения по своему интересу, расписание встреч и ближайший набор.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "uvr"
+      ],
+      "source_ids": [
+        "uvr"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "club_tourism": {
+      "title": "Спорт и туризм",
+      "text": "Уточните в УВР туристические и спортивные объединения, ближайшие мероприятия и условия участия.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "uvr"
+      ],
+      "source_ids": [
+        "uvr"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "club_volunteer": {
+      "title": "Волонтёрство",
+      "text": "Запросите в УВР контакты волонтёрских объединений и ближайшие проекты, к которым можно присоединиться.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "uvr"
+      ],
+      "source_ids": [
+        "uvr"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "club_teams": {
+      "title": "Студенческие отряды",
+      "text": "Уточните в УВР действующие студотряды, направления работы, сроки набора и необходимые документы.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "uvr"
+      ],
+      "source_ids": [
+        "uvr"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "science": {
+      "title": "Студенческая наука",
+      "text": "Совет по НИРС поможет с научной работой и научными поездками. Расскажите о своём направлении и интересах, уточните проекты, конференции и порядок участия.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "science"
+      ],
+      "source_ids": [
+        "science"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "career": {
+      "title": "Практики, стажировки и работа",
+      "text": "Центр карьеры помогает с резюме, поиском работы, практиками и стажировками. По вопросам практики пишите на practice@ssau.ru; по вакансиям и карьере — на career@ssau.ru или work@ssau.ru.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "career"
+      ],
+      "source_ids": [
+        "career"
+      ],
+      "keywords": [
+        "резюме вакансии стажировка практика работа"
+      ],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "contacts": {
+      "title": "Контакты служб",
+      "text": "Выберите службу. Телефоны и адреса открываются в отдельной карточке.",
+      "steps": [],
+      "documents": [],
+      "children": [
+        {
+          "label": "Приёмная комиссия",
+          "target": "admissions_contact"
+        },
+        {
+          "label": "Общежития",
+          "target": "dorm_contacts"
+        },
+        {
+          "label": "Студенческий отдел кадров",
+          "target": "student_office"
+        },
+        {
+          "label": "Здравпункты",
+          "target": "health"
+        },
+        {
+          "label": "Военно-учётный стол",
+          "target": "military_registry"
+        },
+        {
+          "label": "Техническая поддержка",
+          "target": "support_contact"
+        },
+        {
+          "label": "Диспетчерская",
+          "target": "dispatcher_contact"
+        },
+        {
+          "label": "Стипендии и социальная защита",
+          "target": "payment_contacts"
+        },
+        {
+          "label": "Психологическая помощь",
+          "target": "psychological"
+        },
+        {
+          "label": "Внеучебная работа",
+          "target": "uvr_contact"
+        },
+        {
+          "label": "Наука",
+          "target": "science"
+        },
+        {
+          "label": "Центр карьеры",
+          "target": "career"
+        },
+        {
+          "label": "Канцелярия",
+          "target": "chancellery"
+        },
+        {
+          "label": "Страница ИИК",
+          "target": "about"
+        }
+      ],
+      "contact_ids": [],
+      "source_ids": [],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "support_contact": {
+      "title": "Техническая поддержка",
+      "text": "По вопросам доступа к личному кабинету, Wi-Fi, почте и университетским сервисам обратитесь в поддержку. Пароли не отправляйте.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "support"
+      ],
+      "source_ids": [
+        "support"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "dispatcher_contact": {
+      "title": "Диспетчерские площадок",
+      "text": "Уточняйте расписание и аудитории в диспетчерской своей площадки.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "dispatcher"
+      ],
+      "source_ids": [
+        "schedule"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    },
+    "uvr_contact": {
+      "title": "Управление внеучебной работы",
+      "text": "По вопросам объединений, мероприятий, поездок и спортивной жизни обращайтесь в УВР.",
+      "steps": [],
+      "documents": [],
+      "children": [],
+      "contact_ids": [
+        "uvr"
+      ],
+      "source_ids": [
+        "uvr"
+      ],
+      "keywords": [],
+      "checked_at": null,
+      "campaign_year": null,
+      "expires_on": null
+    }
+  }
+}
