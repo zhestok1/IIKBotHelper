@@ -17,7 +17,7 @@ Telegram-бот на **aiogram 3** для поступающих и первок
 
 ## Установка и запуск
 
-Нужны Python **3.12+**, [uv](https://docs.astral.sh/uv/getting-started/installation/) и токен бота от [@BotFather](https://t.me/BotFather).
+Нужны Python **3.11+**, [uv](https://docs.astral.sh/uv/getting-started/installation/) и токен бота от [@BotFather](https://t.me/BotFather).
 
 ```bash
 cd /workspace/IIKBotHelper
@@ -106,3 +106,9 @@ UV_CACHE_DIR=/workspace/.cache/uv uv sync --locked --extra dev
 `uv.lock` фиксирует зависимости. Исходники находятся в `src/iik_bot/`; обработчики — в `handlers.py`, навигация и представления — в `handlers.py` и `views.py`, SQLite — в `storage.py`. Тесты направляют настоящие aiogram `Update` в `Dispatcher` с подменой транспортной сессии: проверяется логика обработки без отправки сообщений людям.
 
 Тесты без токена не подтверждают доступ к Telegram, действительность токена или актуальность данных университета. Финальная проверка с собственным ботом проводится после настройки токена и сети.
+
+## Деплой с Python 3.11 (INFRLO Buildpack)
+
+В корне репозитория находится `requirements.txt`, который устанавливает само приложение из `pyproject.toml`. Для сборки используйте `pip install -r requirements.txt`, для запуска — `python -u -m iik_bot`. Рабочий каталог должен содержать `pyproject.toml`. Python 3.11.17 проверяется теми же локальными тестами, что и Python 3.12.
+
+Задайте `BOT_TOKEN` в переменных окружения хостинга. Нужен постоянно работающий процесс с HTTPS-доступом к `api.telegram.org`. В журнале после запуска должно появиться сообщение «Бот запущен в режиме long polling». Сохраните базу `data/bot.sqlite3` на постоянном диске, если платформа очищает файловую систему при пересоздании контейнера.
